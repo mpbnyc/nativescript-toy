@@ -1,6 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-
-import { Item } from "./item";
 import { PlanetService } from "../planet-service/planet.service";
 
 @Component({
