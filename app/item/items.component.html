@@ -1,0 +1,7 @@
+<ActionBar title="My App" class="action-bar">
+</ActionBar>
+<StackLayout class="page">
+    <StackLayout padding="12" *ngFor="let planet of planets; let i = index" >
+        <Label [nsRouterLink]="['/item', i]" fontSize="20" [text]="planet.name"></Label>
+    </StackLayout>
+</StackLayout>

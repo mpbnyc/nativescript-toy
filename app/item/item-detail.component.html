@@ -1,0 +1,9 @@
+<ActionBar title="Details" class="action-bar"></ActionBar>
+<StackLayout class="m-15">
+    <Label class="h2" [text]="planet.name"></Label>
+    <Image src="https://www.windows2universe.org/neptune/images/neptune_false_med.jpg"></Image>
+    <Label class="h3" [text]="planet.climate"></Label>
+    <Label class="h3" [text]="planet.terrain"></Label>
+    <Button text="Edit" (tap)="viewEditModal(planet)"></Button>
+</StackLayout>
+
